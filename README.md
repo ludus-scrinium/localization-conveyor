@@ -8,7 +8,7 @@
   <img src="./docs/heropfp.png" alt="localization conveyor" width="120">
 </p>
 
-# localization conveyor — text ships on time
+# localization conveyor
 
 ## what this is
 a simple lane for text: write → translate → proof → ship. track status for each string/file.
