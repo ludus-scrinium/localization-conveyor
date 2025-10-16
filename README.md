@@ -1,33 +1,54 @@
-# localization-conveyor
-Move text from: write → translate → proof → ship (with checks).
+<p align="right">
+  <a href="https://github.com/ludus-scrinium/ludus-scrinium-hub">
+    <img src="https://img.shields.io/badge/←%20back%20to%20hub-111?style=for-the-badge" alt="back to hub">
+  </a>
+</p>
 
-# <Repo Name> — LUDUS SCRINIUM
+<p align="right">
+  <img src="./docs/heropfp.png" alt="localization conveyor" width="120">
+</p>
 
-## What this is
-A simple, searchable catalog for game assets so teams can find what they need, when they need it.
+# localization conveyor — text ships on time
 
-## Why it matters
-- Cuts time spent hunting files
-- Reduces duplicate work
-- Makes reuse and review easier
+## what this is
+a simple lane for text: write → translate → proof → ship. track status for each string/file.
 
-## What’s here (v0)
-- `/data` sample data
-- `/src` minimal code/prototype
-- `/docs` short guides & one-pagers
-- `/scripts` tiny helpers
-- `/demo` GIFs and short videos
+## why it matters
+- shows exactly what’s blocked
+- reduces last-minute scramble
+- keeps translators and devs in sync
 
-## Try it in 5 minutes
-1) Clone this repo
-2) Follow the steps in `/docs/SETUP.md`
-3) Open `/demo` and watch the 60-sec video
+## try it in 5 minutes
+1) open **/docs/SETUP.md**  
+2) load sample strings from **/data/samples/**  
+3) run the conveyor to move items from “write” to “ship”
 
-## Roadmap (next 4 weeks)
-- [ ] Milestone 1: Set up 
-- [ ] Milestone 2:
-- [ ] Milestone 3:
-- [ ] Milestone 4:
+## demo
+- 60–90s clip: **/demo/localization-conveyor-v0.mp4** *(placeholder)*
 
-## License
-MIT (unless noted otherwise for sample assets)
+## fields (v0)
+- key, source, target, status, owner, due
+
+## roadmap (next 4 weeks)
+- [ ] wk1: csv schema + status lane
+- [ ] wk2: basic “due soon” view
+- [ ] wk3: glossary check (mock)
+- [ ] wk4: export release-note snippet
+
+## status + links
+- setup: **/docs/SETUP.md**
+- schema: **/docs/SCHEMA.md** *(placeholder)*
+- license: **MIT**
+
+---
+
+<p align="center">
+  <img src="./docs/heropfp.png" alt="localization conveyor" width="96">
+</p>
+
+<p align="center">
+  <a href="https://github.com/ludus-scrinium/ludus-scrinium-hub">
+    <img src="https://img.shields.io/badge/←%20back%20to%20hub-111?style=for-the-badge" alt="back to hub">
+  </a>
+</p>
+
